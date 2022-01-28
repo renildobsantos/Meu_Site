@@ -9,122 +9,148 @@
 
 body {
     font-size: 100%;
-    background-color: rgb(44, 57, 58);
+    background: linear-gradient(to bottom, rgb(5, 23, 34), rgb(12, 11, 14));
 }
 
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-around;
     padding: 20px;  
 }
 
 .cabecalho-imagem {
-height: 40px;
+    width: 200px;
+    height: 60px;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 32px;
+    gap: 50px;
 }
 
 .cabecalho-menu-item {
-    font-family: 'Righteous', cursive;
-    color: rgb(0, 204, 255);
+    font-family: 'Roboto', Regular;
+    color: rgb(255, 255, 255);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 18px;
 }   
 
 .conteudo {
-    margin-bottom: 32px;
-    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 45px;
+    border-top: 0.4px solid #2e4463;
 }
 
 .conteudo-principal {
     display: flex;
-    flex-direction: row;
+    flex-direction:row-reverse;
     align-items: center;
     justify-content: space-around;
 }
 
 .conteudo-principal-escrito {
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    flex-direction:column;
+    justify-content:space-around;
+    margin-top: 80px;
+    gap: 20px;
 }
 
 .conteudo-principal-escrito-titulo {
-    font-family: 'Righteous', cursive;
+    font-family: 'Rozha One', Regular;
     font-weight: 400;
     font-size: 28px;
-    color: rgb(238, 255, 0);
+    color: rgb(255, 255, 255);
 }
 
 .conteudo-principal-escrito-subtitulo {
-    font-family: 'Righteous', cursive;
+    font-family: 'Rochester', Regular;
+    font-weight: 400;
+    font-size: 36px;
+    color: rgb(193, 124, 195);
+}    
+
+.conteudo-principal-escrito-cargo {
+    font-family: 'Noto Serif Bengali', Bold;
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}    
+
+.conteudo-principal-escrito-descricao {
+    font-family: 'Comic Neue', Regular;
     font-weight: 400;
     font-size: 18px;
-    color: chartreuse;
+    color: rgb(239, 93, 168);
 }    
 
 .conteudo-principal-escrito-botao {
-    background-color: rgb(55, 0, 255);
-    width: 140px;
-    height: 40px;
+    background-color: rgb(28, 47, 71);
+    width: 110px;
+    height: 30px;
     border: none;
-    box-shadow: 4px 5px 4px rgb(0, 225, 255);
+    box-shadow: 2px 2px 2px rgb(255, 225, 255);
     border-radius: 20px;
-    font-family: Tahoma, sans-serif;
+    font-family: 'Play', Regular;
     font-weight: 400px;
-    font-size: 24px;
-    color: rgb(255, 81, 0);
+    font-size: 12px;
+    color: rgb(255, 255, 255);
 }
 
 .conteudo-principal-escrito-botao:hover {
-    background-color: coral;
+    background-color: rgb(52, 93, 100);
 }
 
 .conteudo-principal-imagem {
-    height: 150px;
+    width: 360px;
+    height: 360px;
+    justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 .conteudo-secundario {
     display: flex;
-    flex-direction: column;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.conteudo-secundario-git {
+    width: 30px;
+    height: 30px;
     align-items: center;
-    gap: 24px;
-    margin-top: 48px;
+    margin-top: 20px;
+}
+
+.conteudo-secundario-linkedin {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.conteudo-secundario-gmail {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .conteudo-secundario-titulo {
-    border-top: 0.4px solid rgb(229, 255, 0);
     padding-top: 48px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Roboto', Regular;
     font-weight: 400;
-    font-size: 24px;
-    color: chartreuse;
+    font-size: 18px;
+    color: rgb(239, 93, 168);
     margin-bottom: 16px;
 }
 
-.conteudo-secundario-paragrafo {
-    font-family: 'Righteous', cursive;
-    font-weight: 300;
-    font-size: 12px;
-    color: rgb(255, 0, 170);
-}
-
 .rodape {
-    padding: 32px;
-    border-top: 0.4px solid rgb(0, 225, 255);
+    padding: 30px;
+    border-top: 0.4px solid #2e4463  ;
 }
-
-.rodape-imagem {
-    height: 30px;
-    display: block;
-    margin: 0 auto;
-}
-
 
