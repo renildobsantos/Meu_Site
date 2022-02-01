@@ -1,6 +1,6 @@
 # CRIANDO MEU PRIMEIRO SITE 
 
-## Inicialmente tive a idéia de criar minha Landing Page utilizando HTML e CSS.
+## Projeto criar minha Landing Page utilizando HTML e CSS.
 
 ### Minha interface utilizei a ferramenta do Figma.
 
